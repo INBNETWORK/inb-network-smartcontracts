@@ -1,0 +1,7 @@
+{
+  "name": "Profiles",
+  "version": "0.1.0",
+  "contracts": {
+    "Profiles": "Profiles"
+  }
+}

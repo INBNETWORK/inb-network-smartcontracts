@@ -1,0 +1,13 @@
+{
+  "name": "profiles",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test-rpc": "node ./testHttpProvider.js",
+    "add-contract": "zos add Profiles",
+    "push-contract": "zos push --network live",
+    "create-proxy-contract": "zos create Profiles --init initialize --network live",
+    "update-contract": "zos update Profiles --network live"
+  }
+}

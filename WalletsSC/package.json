@@ -1,0 +1,12 @@
+{
+  "name": "Wallets",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test-rpc": "node ./testHttpProvider.js",
+    "add-contract": "zos add Wallets",
+    "push-contract": "zos push --network live",
+    "create-proxy-contract": "zos create Wallets --init initialize --network live",
+    "update-contract": "zos update Wallets --network live"
+  }
+}

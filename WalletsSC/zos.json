@@ -1,0 +1,7 @@
+{
+  "name": "Wallets",
+  "version": "0.1.0",
+  "contracts": {
+    "Wallets": "Wallets"
+  }
+}

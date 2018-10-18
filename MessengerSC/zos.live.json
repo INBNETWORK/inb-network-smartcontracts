@@ -1,0 +1,29 @@
+{
+  "contracts": {
+    "Messenger": {
+      "address": "0x6ef825ce3ad32e6589bd513793b285556cf5accf",
+      "constructorCode": "608060405234801561001057600080fd5b50610e4a806100206000396000f300",
+      "bodyBytecodeHash": "a0cdad842aca08e04eb6e668f4d3e230de9238174039be763c3a098c7642bcd6",
+      "bytecodeHash": "a4f370b7f75a614dab9f94d85a2087ca12c71093ecb4b30c6f43b1f42132efcc"
+    }
+  },
+  "proxies": {
+    "Messenger": [
+      {
+        "address": "0xa106789c35fdc7bbb63951100c4d2fd0331565e8",
+        "version": "0.1.0",
+        "implementation": "0x6ef825ce3ad32e6589bd513793b285556cf5accf"
+      }
+    ]
+  },
+  "app": {
+    "address": "0x9454d994e062f44d6e6f958b3089ea99793b2644"
+  },
+  "version": "0.1.0",
+  "package": {
+    "address": "0x623d2255c3827ec16a9b79caacc027ceb317a44d"
+  },
+  "provider": {
+    "address": "0x59b935eb7602b35944289ccc985563131ecedcef"
+  }
+}

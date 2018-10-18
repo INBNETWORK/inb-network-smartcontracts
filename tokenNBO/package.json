@@ -1,0 +1,12 @@
+{
+  "name": "SmartToken",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "test-rpc": "node ./testHttpProvider.js",
+    "add-contract": "zos add SmartToken",
+    "push-contract": "zos push --network live",
+    "create-proxy-contract": "zos create SmartToken --init initialize --network live",
+    "update-contract": "zos update SmartToken --network live"
+  }
+}
