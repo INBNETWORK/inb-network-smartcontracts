@@ -19,7 +19,6 @@ if (!process.browser) {
   require("dotenv").config({ path: pathEnv });
 
 }
-console.log(process.env);
 const rpcHost = process.env.RPC;
 const networkId = "77";
 if (!cProfiles || !cProfiles.networks || !cProfiles.networks[networkId] || !cProfiles.networks[networkId].address)
